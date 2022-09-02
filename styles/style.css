@@ -1,3 +1,6 @@
+/*-----------------
+ Carousel styles
+----------------- */
 .text-black-h1-h4 {
 	color: rgb(182, 61, 61) !important;
 }
@@ -19,6 +22,9 @@
 	font-weight: 600;
 	font-size: 20px;
 }
+/*-----------------
+ Courses styles
+----------------- */
 .courses-header-h1 {
 	font-family: "Poppins";
 	font-style: normal;
@@ -52,6 +58,39 @@
 	font-weight: 400;
 	font-size: 16px;
 }
+/*-----------------
+ E-Learning styles
+------------------ */
+.course-choices {
+	box-sizing: content-box;
+	border: 1px solid #289bde;
+}
+.bg-secondary-elearning {
+	background-color: #f4fafd;
+}
+.elearning-h1 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	color: #289bde;
+}
+.three-elearning-h1 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	color: #289bde;
+}
+.three-elearning-p {
+	font-family: "Poppins";
+	font-style: normal;
+	font-size: 20px;
+	color: #777777;
+}
+/*---------------------
+ Ready-to-join styles
+---------------------- */
 
 /* Breakpoints:
 320px — 480px: Mobile devices.
@@ -64,6 +103,9 @@
    Mobile devices
 ----------------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+	/*-----------------
+      Carousel styles
+    ----------------- */
 	.carousel-h1 {
 		padding-bottom: 0% !important;
 		margin-bottom: 0% !important;
@@ -84,14 +126,42 @@
 		padding: 5px 10px !important;
 		font-size: 10px !important;
 	}
+	/*-----------------
+      Courses styles
+   ----------------- */
 	.flex-row {
 		flex-direction: column !important;
+	}
+	/*-------------------
+      E-Learning styles
+   -------------------- */
+	.bg-secondary-elearning {
+		flex-direction: column;
+	}
+	.elearning-img {
+		width: 100%;
+	}
+	.elearning-total-text-div {
+		padding-top: 20px;
+		width: 100%;
+	}
+	.elearning-three-section {
+		flex-direction: column;
+	}
+	.three-elearning-h1 {
+		font-size: 25px;
+	}
+	.three-elearning-p {
+		font-size: 15px !important;
 	}
 }
 /*----------------
    iPads, Tablets
 ----------------- */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+	/*-------------------
+      Caarousel styles
+   ------------------- */
 	.carousel-h1 {
 		font-size: 40px;
 	}
@@ -110,11 +180,34 @@
 		padding: 5px 10px !important;
 		font-size: 10px;
 	}
+	/*--------------------
+      E-Learning styles
+   -------------------- */
+	.elearning-img {
+		width: 250px;
+	}
+	.elearning-h1 {
+		font-size: 20px;
+	}
+	.three-elearning-h1 {
+		font-size: 20px;
+	}
+	.three-elearning-p {
+		font-size: 10px;
+	}
+	.elearning-button {
+		margin-top: 0% !important;
+		margin-bottom: 0% !important;
+		margin-right: 0% !important;
+	}
 }
 /*------------------------
    Small screens, laptops
 ------------------------ */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+	/*-----------------
+      Carousel styles
+   ----------------- */
 	.carousel-h1 {
 		font-size: 50px;
 	}
