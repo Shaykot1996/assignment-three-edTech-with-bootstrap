@@ -88,9 +88,6 @@
 	font-size: 20px;
 	color: #777777;
 }
-/*---------------------
- Ready-to-join styles
----------------------- */
 
 /* Breakpoints:
 320px — 480px: Mobile devices.
@@ -153,6 +150,18 @@
 	}
 	.three-elearning-p {
 		font-size: 15px !important;
+	}
+	/*---------------------
+    Ready-to-join styles
+   ---------------------- */
+	.ready-to-join-div {
+		flex-direction: column;
+	}
+	.ready-to-join-h1 {
+		text-align: center;
+	}
+	.ready-to-join-p {
+		text-align: center;
 	}
 }
 /*----------------
